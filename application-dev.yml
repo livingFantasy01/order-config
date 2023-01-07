@@ -29,6 +29,6 @@ customer:
    
 stock:
   fetch:
-   url: http://stock/api/stock/{stockName}
+   url: http://stock/api/stock/fetchStockById/{id}
       
 message: "i am from dev"
