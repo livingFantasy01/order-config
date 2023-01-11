@@ -29,6 +29,6 @@ customer:
    
 stock:
   fetch:
-   url: http://stock/api/stock/{stockName}
+   url: http://stock/api/stock/stock_overview?function=OVERVIEW&symbol={symbol}
       
 message: "i am from default"
